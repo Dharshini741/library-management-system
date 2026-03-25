@@ -17,7 +17,7 @@ cur.execute("""
 CREATE TABLE IF NOT EXISTS books(
     book_id INTEGER PRIMARY KEY,
     title TEXT,
-    author TEXT,
+    author TEXT,=
     quantity INTEGER,
     category TEXT,
     reference INTEGER DEFAULT 0
